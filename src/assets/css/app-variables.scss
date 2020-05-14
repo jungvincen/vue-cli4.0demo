@@ -1,0 +1,9 @@
+//公共样式
+$app-primary: #0075F9;
+$header-background-color: #18173B;
+$app-peace-color: #67C23A;
+@mixin ellipsis(){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

@@ -1,0 +1,16 @@
+{
+  "id": "1787526",
+  "name": "vue-demo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "vue-demo",
+  "glyphs": [
+    {
+      "icon_id": "1257344",
+      "name": "球队",
+      "font_class": "qiudui",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    }
+  ]
+}
