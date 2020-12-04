@@ -1,6 +1,7 @@
 <template>
   <div v-loading.lock="loading">
     <div class="box">
+      <button @click="getData">获取信息</button>
 <!--      <el-amap class="amap-box" :vid="'amap-vue'"></el-amap>-->
     </div>
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 // import { createSocket, sendWSPush } from "../../api/websocket";
+import { addPerson } from '../../api/common'
 
 export default {
   name: "Home",
@@ -22,7 +24,14 @@ export default {
   },
 
   methods: {
-
+    getData(){
+      addPerson({ name: 'daniel', sex: 'male', age: 10 }).then(res=>{
+        console.log(res)
+      },
+      err=>{
+        console.log(err)
+      })
+    }
   },
   mounted(){
     // createSocket()//创建

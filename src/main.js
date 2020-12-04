@@ -9,6 +9,7 @@ import doDrag from './plugins/drag'
 import VueAMap from 'vue-amap';
 import global from './components/globalComponents'
 import { checkJurisdiction } from './common/jurisdiction'
+import './mock/mock'
 
 
 Vue.config.productionTip = false;
